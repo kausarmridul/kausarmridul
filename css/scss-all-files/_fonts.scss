@@ -1,0 +1,43 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+@mixin open {
+  font-family: "Open Sans", sans-serif;
+}
+@mixin popin {
+  font-family: "Poppins", sans-serif;
+}
+// Opensans Fonts
+@mixin openreg {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+@mixin openmed {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+@mixin openbld {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+@mixin openblk {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+// Poppins Fonts
+@mixin popinreg {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+@mixin popinmed {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+@mixin popinbld {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+@mixin popinblk {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}

@@ -1,0 +1,197 @@
+/* ============================
+    Medium Device Starts
+===============================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #banner .home-left span.home-discribe {
+    padding-right: 0px !important;
+  }
+
+  #contact .contact-social .custom-list ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #contact .contact-social .social-profile {
+    margin: 25px 0;
+  }
+
+  .navmenu .menu-list {
+    padding: 5px 5px !important;
+  }
+
+  .navmenu .menu {
+    padding: 0 15px;
+  }
+}
+
+/* ============================
+    Medium Device Ends
+===============================*/
+
+/* ========================
+       Small Device Starts
+==========================*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #contact .contact-social .social-profile {
+    margin: 25px 0;
+  }
+
+  .common-heading h2 {
+    font-size: 45px;
+  }
+
+  .common-heading span.about-subtitle {
+    display: none;
+  }
+
+  .navmenu .menu {
+    padding: 0 10px;
+  }
+}
+
+/* =======================
+       Small Device Ends
+========================*/
+
+/* ============================
+    Extra Small Device Starts
+===============================*/
+
+@media (max-width: 575px) {
+  .common-heading h2 {
+    font-size: 30px;
+  }
+
+  .common-heading span.about-subtitle {
+    display: none;
+  }
+
+  .navmenu .menu {
+    padding: 0 10px;
+  }
+
+  #banner .home-right img {
+    max-width: 100% !important;
+  }
+
+  #banner .home-left h1.title {
+    font-size: 25px !important;
+    line-height: 40px !important;
+  }
+
+  #banner .container {
+    padding-bottom: 100px !important;
+  }
+
+  #banner .home-left h1.title span,
+  #about-me .about-me-content .about-me-text h3 {
+    font-size: 25px !important;
+  }
+
+  #banner .home-left span.home-discribe {
+    font-size: 14px !important;
+    line-height: 28px !important;
+    padding-right: 0px !important;
+  }
+
+  #banner .home-left .home-btn a,
+  #about-me .about-me-content .about-me-text a,
+  #contact .contact-form .form .submit button.submit-btn {
+    font-size: 14px !important;
+    line-height: 40px !important;
+    padding: 0 15px !important;
+  }
+
+  #about-me .about-me-content .about-me-image {
+    max-width: 270px;
+  }
+
+  #about-me .container,
+  #expertise .container,
+  #portfolio .container,
+  #testimonial .container {
+    padding-bottom: 80px;
+  }
+
+  #expertise .expertise-content h4 {
+    font-size: 18px;
+  }
+
+  #expertise .expertise-content .progress-charts {
+    padding-right: 25px;
+  }
+
+  #expertise .expertise-content .progress-charts .progressbar-item h6.progress-title,
+  #expertise .expertise-content .progress-charts .progressbar-item .progress-bar-content .progress-number .progress-number-mark,
+  #contact .contact-social .custom-list ul li a.contact-content,
+  #contact .contact-social .custom-list ul li h6.contact-tittle {
+    font-size: 14px;
+  }
+
+  #contact .contact-social .social-profile {
+    margin: 25px 0;
+  }
+
+  #contact .contact-form p,
+  #testimonial .testimonial-content .testimonial-item .testimonial-item-content .heading-text p,
+  #about-me .about-me-content .about-me-text p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  #footer p span {
+    display: block;
+  }
+}
+
+/* ==========================
+    Extra Small Device Ends
+============================*/
+
+/* ==========================
+    Mobile & Tab Device Starts
+============================*/
+
+@media (max-width: 991px) {
+  .navmenu .logo {
+    line-height: 60px !important;
+  }
+
+  .navmenu .menu-list {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    background: #191b1e;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    visibility: hidden;
+    transition: all linear 0.4s;
+    opacity: 0;
+  }
+
+  .navmenu .menu .menu-list a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    line-height: unset;
+    color: #fff;
+  }
+
+  .add {
+    visibility: visible !important;
+    top: 85px !important;
+    opacity: 1 !important;
+  }
+
+  /* Menu Bar Ends */
+}
+
+/* ==========================
+    Mobile & Tab Device Ends
+============================*/
