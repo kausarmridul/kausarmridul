@@ -18,7 +18,6 @@ $(document).ready(function () {
   $(function () {
     $(".my-feature-list").infiniteslide({
       responsive: true,
-      pauseonhover: false,
       speed: 40,
     });
   });

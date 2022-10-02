@@ -299,6 +299,8 @@ a {
 }
 #banner .my-feature {
   background: linear-gradient(to right bottom, #212428, #16181c);
+}
+#banner .my-feature .my-feature-list {
   padding: 25px 0;
 }
 #banner .my-feature .my-feature-list .feature {

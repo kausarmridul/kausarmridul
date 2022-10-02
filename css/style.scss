@@ -321,9 +321,10 @@ a {
 
   .my-feature {
     background: $background-color-5;
-    padding: 25px 0;
 
     .my-feature-list {
+      padding: 25px 0;
+
       .feature {
         display: flex;
         align-items: center;
