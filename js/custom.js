@@ -46,10 +46,8 @@ $(document).ready(function () {
 
   $(".scrollTop").click(function () {
     $("body,html").animate({
-        scrollTop: 0,
-      },
-      1000
-    );
+      scrollTop: 0,
+    });
   });
 
   function screenClass() {
