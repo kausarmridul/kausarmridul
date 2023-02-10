@@ -9,6 +9,7 @@ $(document).ready(function () {
 
   new VenoBox({
     selector: ".gallery-link",
+    infinigall: true,
   });
 
   // Navmenu
