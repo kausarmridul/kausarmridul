@@ -60,6 +60,10 @@ a {
   clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
 }
 
+.vbox-grab .vbox-child img {
+  max-height: 100vh;
+}
+
 .common-heading {
   padding: 60px 0 54px;
   text-align: center;
