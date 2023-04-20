@@ -12,6 +12,10 @@ img {
   vertical-align: middle;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 ul,
 ol {
   list-style: none;
@@ -389,8 +393,9 @@ a {
       img {
         border-radius: 10px;
         border: 4px solid #fff;
-        animation: imgrotate 1s 0.5s forwards;
-      }
+        animation: imgrotate linear 1s 0.5s forwards;
+        -webkit-animation: imgrotate linear 1s 0.5s forwards;
+}
 
       @keyframes imgrotate {
         0% {}
